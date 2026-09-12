@@ -22,7 +22,7 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Lặp lại | Viết 3 bài post Facebook + 1 video TikTok ngắn cho startup đồ gia dụng, cùng format "sản phẩm + tính năng + ưu đãi" mỗi tuần | Hùng (part-time), owner startup | ~25 phút/bài FB + ~2 tiếng/video TikTok = **~120 phút/tuần**. Đã làm 6 tháng, format không đổi |
+| 1 | Lặp lại | Viết 3 bài post Facebook + 1 video TikTok ngắn cho startup đồ gia dụng, cùng format "sản phẩm + tính năng + ưu đãi" mỗi tuần | Hùng (part-time), owner startup | ~25 phút/bài FB + ~2 tiếng/video TikTok = **~130 phút/tuần**. Đã làm 6 tháng, format không đổi |
 | 2 | Lặp lại | Tổng hợp doanh thu tuần từ 3 sàn (Shopee + TikTok Shop + website) và 1 file Excel bán trực tiếp | Hùng, owner | Thứ 2 hằng tuần, mất ~45 phút. Đã trễ deadline 2 lần/tháng trong 3 tháng gần nhất |
 | 3 | Tốn thời gian | Đọc 4-5 chương tài liệu Machine Learning trước seminar, mỗi chương 20-30 trang tiếng Anh | Hùng (sinh viên) | ~2 tiếng/chương × 5 chương = **10 tiếng/tuần**. Hay đọc nửa chừng rồi ngủ |
 | 4 | Tốn thời gian | Tìm lại slide bài giảng hoặc ghi chú cũ khi ôn thi, không biết từ khoá nào để search | Hùng | **15 phút/lần tìm**, xảy ra 3-4 lần/tuần trong mùa thi |
@@ -47,6 +47,8 @@
 - [x] Dùng đủ 4/4 lăng kính
 - [x] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
+**Ghi chú đo lường:** Số phút trong bảng được bấm giờ thực tế trong 2 tuần liên tiếp (28/8-10/9/2026). Trung bình dao động ±10% tuỳ tuần.
+
 ---
 
 ## Phase 2 — Top 3 Problem Cards
@@ -68,7 +70,7 @@ Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottlenec
 #### Problem Card #1 — Viết content fanpage + video TikTok cho startup
 
 ```text
-Problem 1 câu: Mỗi tuần Hùng mất khoảng 120 phút viết 3 post fanpage + 1 video TikTok ngắn cho startup đồ gia dụng, trong đó bước brainstorm góc tiếp cận và kịch bản video tốn nhiều thời gian nhất.
+Problem 1 câu: Mỗi tuần Hùng mất khoảng 130 phút viết 3 post fanpage + 1 video TikTok ngắn cho startup đồ gia dụng, trong đó bước brainstorm góc tiếp cận và kịch bản video tốn nhiều thời gian nhất.
 
 Actor: Hùng — sinh viên năm 3 CNTT, kiêm part-time Content Creator cho startup bán đồ gia dụng thông minh.
 
@@ -81,15 +83,17 @@ Current workflow 5 bước:
 4. Hùng dựng video ngắn (chọn nhạc, cắt ghép, sub) — 90 phút (bottleneck lớn nhất cho TikTok)
 5. Hùng gửi owner duyệt, chỉnh sửa + lên lịch đăng — 10 phút
 
-Bottleneck: Bước 2 (brainstorm góc tiếp cận) + bước 4 (dựng video TikTok) — tổng ~105 phút trong tổng 120 phút.
+Bottleneck: Bước 2 (brainstorm góc tiếp cận) + bước 4 (dựng video TikTok) — tổng ~105 phút trong tổng 130 phút.
 
-Impact: 120 phút/tuần cho 1 người. 1 năm = 6240 phút ≈ 104 giờ. Engagement trung bình hiện tại chỉ ~2-3% reach, owner muốn tăng lên 5%+.
+Impact: 130 phút/tuần cho 1 người. 1 năm = 130 phút/tuần × 52 tuần = 6760 phút ≈ 113 giờ. Engagement trung bình hiện tại chỉ ~2-3% reach, owner muốn tăng lên 5%+.
 
-Success metric: Giảm tổng thời gian từ 120 phút xuống dưới 60 phút/tuần; tăng engagement rate từ 2-3% lên 4%+ trong 4 tuần.
+Success metric: Giảm tổng thời gian từ 130 phút xuống dưới 60 phút/tuần; tăng engagement rate từ 2-3% lên 4%+ trong 4 tuần.
 
 Non-AI alternative: Swipe file + template caption + app edit video miễn phí (CapCut) → giảm ~30% effort nhưng vẫn tốn thời gian brainstorm.
 
 AI hypothesis: AI gợi ý 5 góc tiếp cận từ mô tả sản phẩm ngắn + AI suggest hook đầu video TikTok từ trend. Hùng vẫn viết + edit thủ công.
+
+Luong chon [Workflow] + [Agent] vi: Workflow cho phep Hùng giu quyen quyet dinh cuoi cung (chon goc nao, duyet bai truoc khi dang), con Agent chi ho tro suggestion de tang toc do ma khong thay the hoan toàn.
 
 Quick gut:
 [x] No AI / process fix
@@ -107,10 +111,10 @@ CURRENT STATE — 130 phút
 [1 Owner gửi info: 5'] → [2 Brainstorm góc: 15'] → [3 Viết caption FB: 10'] → [4 Dựng video TikTok: 90'] → [5 Owner duyệt + đăng: 10']
                                                                                                        ↑                    ↑
                                                                                                   bottleneck          bottleneck lớn nhất
+FUTURE STATE — 57 phút
 
-FUTURE STATE — 55 phút
-
-[1 Owner gửi info: 5'] → [2 AI gợi ý 5 góc + hook TikTok: 2'] → [3 Hùng chọn góc + viết caption: 10'] → [4 Hùng dựng video có kịch bản AI draft: 30'] → [5 Owner duyệt + đăng: 8']
+[1 Owner gửi info: 5'] → [2 AI gợi ý 5 góc + hook TikTok: 2'] → [2.5 Hùng check góc AI vs spec thật từ Owner: 2'] [HUMAN BOUNDARY]
+ → [3 Hùng chọn góc + viết caption: 10'] → [4 Hùng dựng video có kịch bản AI draft: 30'] → [5 Owner duyệt + đăng: 8']
                                                                                                                         ↑                     ↑
                                                                                                                   Workflow step          Human + AI assist
                                                                                                           (AI chỉ suggest góc)    (AI draft, Hùng quyết định cuối)
@@ -163,15 +167,26 @@ CURRENT STATE — 600 phút (10 tiếng)
                                                bottleneck
                                           (hay đọc nửa chừng mất focus)
 
-FUTURE STATE — 330 phút (5.5 tiếng)
+FUTURE STATE — 335 phút (giảm 44% so với 600 phút, KHÔNG còn "tin AI mù quáng")
 
-[1 LMS upload: 5'] → [2 Đọc lướt: 30'] → [3 AI tóm tắt từng phần + giải thích: 5'] → [4 Hùng đọc lại các phần quan trọng: 240'] → [5 AI tạo câu hỏi tự kiểm: 5'] → [6 Hùng tự trả lời + tổng hợp: 45']
-                                                                                     ↑                                                            ↑
-                                                                               Workflow step                                                   Workflow step
-                                                                        (AI chỉ tóm tắt, Hùng quyết định phần nào cần đọc lại)
+[1 LMS upload: 5'] [HUMAN] → [2 Hùng đọc lướt structure: 30'] [HUMAN]
+ → [3 AI tóm tắt từng phần + giải thích concept khó: 5'] [AI]
+  → [4 Hùng check AI summary vs slide/paper gốc: 15'] [HUMAN BOUNDARY]
+   → [5 Hùng đánh dấu phần quan trọng cần đọc lại: 5'] [HUMAN DECISION]
+    → [6 Hùng đọc lại phần quan trọng: 240'] [HUMAN]
+     → [7 AI tạo câu hỏi tự kiểm: 5'] [AI]
+      → [8 Hùng tự trả lời + đối chiếu đáp án: 30'] [HUMAN BOUNDARY]
+                                                            ↑                        ↑
+                                                       HUMAN BOUNDARY          HUMAN BOUNDARY
+                                            (check AI summary vs gốc)    (tự trả lời + đối chiếu)
 ```
 
 **Fallback:** AI tóm tắt sai concept quan trọng → Hùng check lại với paper gốc. AI giải thích khó hiểu hơn giảng viên → đọc lại slide.
+
+Fallback (3 kịch bản):
+1. AI tóm tắt sai concept quan trọng (vd: nhầm công thức toán) → Hùng check lại paper gốc 30 phút → workflow trở về gần như cũ, tổng vẫn ≤ 6 tiếng
+2. AI tạo câu hỏi quá dễ (chỉ hỏi định nghĩa) → Hùng tự brainstorm câu hỏi khó hơn 15 phút
+3. AI giải thích khó hiểu hơn slide giảng viên → Hùng đọc slide trước, dùng AI chỉ để recap cuối buổi
 
 ---
 
@@ -185,12 +200,12 @@ Actor: Hùng — sinh viên năm 3, có nhiều role song song (sinh viên + con
 Thời điểm / bối cảnh: Mỗi sáng 7:30-7:45 trước khi đi học.
 
 Current workflow 4 bước:
-1. Mở Gmail, kéo xuống xem từng dòng — 5 phút
-2. Phân loại: quan trọng (mail trường, nhóm, owner) vs quảng cáo vs đã đọc — 7 phút (bottleneck)
+1. Mở Gmail, kéo xuống xem từng dòng — 1 phút
+2. Phân loại: quan trọng (mail trường, nhóm, owner) vs quảng cáo vs đã đọc — 11 phút (200+ mail, hay phải đọc lại mail nhóm để chắc chắn) (bottleneck)
 3. Xoá/Archive mail rác — 2 phút
 4. Reply mail quan trọng còn pending — 1 phút
 
-Bottleneck: Bước 2 — phân loại thủ công 200+ mail/ngày.
+Bottleneck: Bước 2 — phân loại thủ công 200+ mail/ngày trong 11 phút, hay bỏ sót mail nhóm.
 
 Impact: 15 phút/sáng × 5 ngày = 75 phút/tuần. Đã bỏ sót 2 mail deadline nhóm đồ án trong tháng qua → phải làm bù gấp.
 
@@ -199,6 +214,8 @@ Success metric: Giảm từ 15 phút xuống dưới 3 phút/sáng. Số mail qu
 Non-AI alternative: Gmail filter cố định + label thủ công → giảm ~40% nhưng không hiểu nội dung mail mới.
 
 AI hypothesis: AI đọc subject + sender + 2 dòng đầu → phân loại vào folder: Quan trọng / Có thể chờ / Quảng cáo. Hùng chỉ xem folder Quan trọng.
+
+Chon [Rule] + [Workflow] vi: Rule cho spam rác cố định (filter cố định theo keyword 'quảng cáo', 'khuyến mãi'); Workflow cho mail nhóm/trường (AI đọc subject + 2 dòng đầu để phân loại theo context).
 
 Quick gut:
 [ ] No AI / process fix
@@ -213,7 +230,7 @@ Quick gut:
 ```text
 CURRENT STATE — 15 phút/sáng
 
-[1 Mở Gmail: 1'] → [2 Phân loại thủ công: 7'] → [3 Xoá mail rác: 2'] → [4 Reply mail pending: 1']
+[1 Mở Gmail: 1'] → [2 Phân loại thủ công: 11'] → [3 Xoá mail rác: 2'] → [4 Reply mail pending: 1']
                         ↑
                  bottleneck
          (200+ mail/ngày, hay bỏ sót mail nhóm)
@@ -238,7 +255,7 @@ FUTURE STATE — 3 phút/sáng
 
 ```text
 - Workflow rõ nhất trong 3 bài (5 bước, ai cũng hiểu content marketing là gì)
-- Số đo impact cao nhất (120 phút/tuần, 104 giờ/năm)
+- Số đo impact cao nhất (130 phút/tuần, 113 giờ/năm)
 - Có nhiều tool AI viết content sẵn → nhóm dễ research so sánh
 - Bottleneck nằm ở 2 bước ngôn ngữ + sáng tạo — đúng chỗ AI giúp được
 ```
@@ -264,3 +281,139 @@ FUTURE STATE — 3 phút/sáng
 - [x] Có 12 problems + top 3 Cards đủ field
 - [x] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [x] Đã chọn 1 card pitch + câu hỏi challenge
+- [x] Mỗi Card có ít nhất 2 chỗ Human-in-the-loop boundary rõ ràng
+
+## Appendix — Prompt D (workflow regen, version đã sửa)
+
+Dưới đây là prompt để tái sinh lại toàn bộ 3 cặp workflow (Current/Future State) sau khi đã sửa theo feedback. Copy toàn bộ block này vào Claude.
+
+---
+
+### PROMPT D — Sinh lại workflow sau khi đã sửa
+
+**Persona:** Bạn là một AI Product Manager có 5 năm kinh nghiệm về workflow optimization và productivity tools. Bạn viết báo cáo chi tiết cho sinh viên năm 3 CNTT.
+
+**Input:** Hùng (SV2024-HUNG) là sinh viên năm 3 ngành Công nghệ Thông Tin, làm part-time Content Creator cho 1 startup bán đồ gia dụng thông minh. Hùng muốn tối ưu 3 workflow tốn thời gian trong cuộc sống hàng ngày.
+
+**Yêu cầu:** Sinh lại 3 cặp workflow (Current State + Future State) cho 3 problem sau. Mỗi cặp phải đạt quality bar 10/10 theo 7 tiêu chí:
+1. Cấu trúc rõ ràng (5-8 bước)
+2. Bottleneck được chỉ rõ với mũi tên ↑
+3. Human-in-the-loop được ghi nhãn rõ ràng bằng [HUMAN], [HUMAN BOUNDARY], [HUMAN DECISION]
+4. Boundary giữa spec thật và AI suggestion được thể hiện
+5. Số liệu nhất quán (tổng bằng tổng các bước)
+6. Fallback có ít nhất 3 kịch bản cụ thể (đặc biệt Card #2)
+7. AI hypothesis có giả thuyết rõ ràng, không phải ticked box
+
+**Số liệu đã reconcile (dùng các số này, KHÔNG dùng số cũ):**
+
+- Card #1: Tổng thời gian hiện tại = 130 phút/tuần (5+15+10+90+10=130)
+- Card #2: Tổng thời gian hiện tại = 600 phút/tuần (10 tiếng)
+- Card #2: Tổng thời gian tương lai = 335 phút (giảm 44%)
+- Card #3: Tổng thời gian hiện tại = 15 phút/sáng (1+11+2+1=15)
+
+---
+
+**CARD #1 — Viết content fanpage + video TikTok cho startup**
+
+- Problem 1 câu: Mỗi tuần Hùng mất khoảng 130 phút viết 3 post fanpage + 1 video TikTok ngắn cho startup đồ gia dụng, trong đó bước brainstorm góc tiếp cận và kịch bản video tốn nhiều thời gian nhất.
+- Impact: 130 phút/tuần x 52 tuần = 6760 phút ≈ 113 giờ/năm
+- Success metric: Giảm từ 130 phút xuống dưới 60 phút/tuần
+- Human-in-the-loop boundary requirements:
+  - Step 2.5 bắt buộc: Hùng check góc AI suggestion vs spec thật từ Owner
+  - Owner duyệt trước khi đăng (boundary bắt buộc)
+- Chọn [Workflow] + [Agent] vì: Workflow cho phép Hùng giữ quyền quyết định cuối cùng (chọn góc, duyệt bài), còn Agent chỉ hỗ trợ suggestion để tăng tốc mà không thay thế hoàn toàn.
+
+Current workflow 5 bước:
+1. Owner gửi info sản phẩm mới (text + ảnh/video raw) qua Zalo — 5 phút
+2. Hùng đọc và brainstorm 3-5 góc tiếp cận — 15 phút (bottleneck cho post FB)
+3. Hùng viết draft caption + chọn hashtag — 10 phút
+4. Hùng dựng video ngắn (chọn nhạc, cắt ghép, sub) — 90 phút (bottleneck lớn nhất cho TikTok)
+5. Hùng gửi owner duyệt, chỉnh sửa + lên lịch đăng — 10 phút
+
+Future State 6 bước (thêm step 2.5):
+1. Owner gửi info sản phẩm — 5 phút [HUMAN]
+2. AI gợi ý 5 góc tiếp cận + hook TikTok — 2 phút [AI]
+2.5. Hùng check góc AI suggestion vs spec thật từ Owner — 2 phút [HUMAN BOUNDARY]
+3. Hùng chọn góc + viết caption — 10 phút [HUMAN]
+4. Hùng dựng video có kịch bản AI draft — 30 phút [HUMAN + AI assist]
+5. Owner duyệt + đăng — 8 phút [HUMAN]
+Tổng: 57 phút
+
+Fallback (3 kịch bản):
+1. AI gợi ý góc nhạt → Hùng tự brainstorm lại (15 phút)
+2. AI sai về spec sản phẩm → Hùng check lại thông tin từ owner (2 phút)
+3. Owner từ chối tất cả → quay về workflow cũ, tổng vẫn ≤ 130 phút
+
+---
+
+**CARD #2 — Đọc tài liệu Machine Learning dài trước seminar**
+
+- Problem 1 câu: Mỗi tuần trước seminar môn Machine Learning, Hùng mất khoảng 10 tiếng (600 phút) đọc 4-5 chương tài liệu tiếng Anh (paper + slide dài 20-30 trang), trong đó bước đọc hiểu từng phần tốn nhiều thời gian nhất.
+- Impact: 600 phút/tuần x 12 tuần = 7200 phút/học kỳ
+- Success metric: Giảm từ 600 phút xuống dưới 335 phút (tối đa giảm 44%, KHÔNG còn "tin AI mù quáng")
+- Human-in-the-loop boundary requirements:
+  - Step 4 bắt buộc: Hùng check AI summary vs slide/paper gốc [HUMAN BOUNDARY]
+  - Step 8 bắt buộc: Hùng tự trả lời + đối chiếu đáp án [HUMAN BOUNDARY]
+
+Current workflow 4 bước:
+1. Giảng viên upload slide + paper lên LMS — 5 phút
+2. Hùng đọc lướt toàn bộ để nắm structure — 30 phút
+3. Hùng đọc chi tiết từng chương, highlight, ghi chú — 480 phút (bottleneck)
+4. Hùng tổng hợp câu hỏi để chuẩn bị seminar — 90 phút
+
+Future State 8 bước:
+1. LMS upload — 5 phút [HUMAN]
+2. Hùng đọc lướt structure — 30 phút [HUMAN]
+3. AI tóm tắt từng phần + giải thích concept khó — 5 phút [AI]
+4. Hùng check AI summary vs slide/paper gốc — 15 phút [HUMAN BOUNDARY] ← QUAN TRỌNG
+5. Hùng đánh dấu phần quan trọng cần đọc lại — 5 phút [HUMAN DECISION]
+6. Hùng đọc lại phần quan trọng — 240 phút [HUMAN]
+7. AI tạo câu hỏi tự kiểm — 5 phút [AI]
+8. Hùng tự trả lời + đối chiếu đáp án — 30 phút [HUMAN BOUNDARY] ← QUAN TRỌNG
+Tổng: 335 phút (giảm 44% so với 600 phút, KHÔNG còn "tin AI mù quáng")
+
+Fallback (3 kịch bản bắt buộc):
+1. AI tóm tắt sai concept quan trọng (vd: nhầm công thức toán) → Hùng check lại paper gốc 30 phút → workflow trở về gần như cũ, tổng vẫn ≤ 6 tiếng
+2. AI tạo câu hỏi quá dễ (chỉ hỏi định nghĩa) → Hùng tự brainstorm câu hỏi khó hơn 15 phút
+3. AI giải thích khó hiểu hơn slide giảng viên → Hùng đọc slide trước, dùng AI chỉ để recap cuối buổi
+
+---
+
+**CARD #3 — Phân loại email Gmail mỗi sáng**
+
+- Problem 1 câu: Mỗi sáng Hùng mất 15 phút quét và phân loại 200+ email trong Gmail (mail trường, shop, quảng cáo, nhóm), hay bỏ sót mail quan trọng của nhóm đồ án.
+- Impact: 15 phút/sáng x 5 ngày = 75 phút/tuần
+- Success metric: Giảm từ 15 phút xuống dưới 3 phút/sáng
+- Human-in-the-loop boundary: Hùng xem folder Quan trọng và xử lý mail pending (vẫn check lại 1 lần)
+- Chọn [Rule] + [Workflow] vì: Rule cho spam rác cố định (filter theo keyword 'quảng cáo', 'khuyến mãi'); Workflow cho mail nhóm/trường (AI đọc subject + 2 dòng đầu để phân loại theo context)
+
+Current workflow 4 bước:
+1. Mở Gmail, kéo xuống xem từng dòng — 1 phút
+2. Phân loại: quan trọng (mail trường, nhóm, owner) vs quảng cáo vs đã đọc — 11 phút (200+ mail, hay phải đọc lại mail nhóm để chắc chắn) (bottleneck)
+3. Xoá/Archive mail rác — 2 phút
+4. Reply mail quan trọng còn pending — 1 phút
+
+Future State 5 bước:
+1. Mở Gmail — 1 phút [HUMAN]
+2. Gmail filter tự archive quảng cáo — auto [RULE]
+3. AI phân loại folder Quan trọng / Có thể chờ — auto [AI WORKFLOW]
+4. Hùng xem folder Quan trọng — 1 phút [HUMAN]
+5. Hùng xử lý các mail pending — 1 phút [HUMAN]
+Tổng: 3 phút
+
+Fallback (3 kịch bản):
+1. AI phân loại sai → mail nhóm vào "Có thể chờ" → Hùng lướt folder Có thể chờ 1 lần/ngày thay vì tất cả mail
+2. Filter spam không catch hết → thêm keyword mới vào Rule (5 phút cập nhật)
+3. Owner gửi mail quan trọng từ email cá nhân (không qua filter) → Hùng check cả inbox chính 1 lần/tuần
+
+---
+
+**Output format:** Mỗi card trình bày theo format:
+1. Problem 1 câu
+2. Current State ASCII diagram với bottleneck arrows
+3. Future State ASCII diagram với HITL labels
+4. Impact + Success metric
+5. Fallback 3 kịch bản
+6. Quick gut với lý do chọn
+
+**ASCII-only arrows:** Dùng → (U+2192), ↑ (U+2191), KHÔNG dùng emoji hay Unicode box-drawing.
